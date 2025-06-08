@@ -4,7 +4,7 @@ let playerMoves = { X: [], O: [] };
 let gameActive = true;
 let isPlayerTurn = true;
 let gameMode = 'normal';
-let timeLeft = 30;
+let timeLeft = 5;
 let timer = null;
 let aiThinking = false;
 
@@ -228,7 +228,7 @@ function updateDisplay() {
 
 // Timer functions
 function startTimer() {
-    timeLeft = 30;
+    timeLeft = 5;
     updateTimerDisplay();
     
     timer = setInterval(() => {
