@@ -260,7 +260,7 @@ function resetGame() {
     playerMoves = { X: [], O: [] };
     gameActive = true;
     isPlayerTurn = true;
-    timeLeft = 30;
+    timeLeft = 5;
     aiThinking = false;
 
     if (timer) {
